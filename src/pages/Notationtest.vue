@@ -1,11 +1,12 @@
 <template>
   <div>
-    <WavePlaylist 
-      :tracks ="tracks" 
-      :startTime ="startTime" 
-      :trackWidth ="trackWidth" 
+    <WavePlaylist
+      :tracks ="tracks"
+      :startTime ="startTime"
+      :trackWidth ="trackWidth"
       :trackHeight="trackHeight"
       :waveOutlineColor="waveOutlineColor"
+      :topBarInfos="topBarInfos"
       >
     </WavePlaylist>
   </div>
@@ -46,8 +47,49 @@ export default {
       trackHeight: 200, // must be same as the height of notation images if using those
       startTime: 1.8,
       waveOutlineColor: '#bbbbbb',
-      trackWidth: 6857 - 171 * 2
+      trackWidth: 6857 - 171 * 2,
+      topBarInfos: [
+        {
+          title: 'Intro',
+          length: 7
+        },
+        {
+          title: 'Instrument.',
+          length: 7
+        },
+        {
+          title: 'Verse1',
+          length: 14
+        },
+        {
+          title: 'Pre-Chorus.',
+          length: 7
+        },
+        {
+          title: 'Verse2',
+          length: 14
+        },
+        {
+          title: 'Pre-Chorus2',
+          length: 14
+        },
+        {
+          title: 'Chrous1',
+          length: 14
+        },
+        {
+          title: 'Verse3',
+          length: 14
+        },
+        {
+          title: 'Pre-Chorus3',
+          length: 9
+        }
+      ]
     }
   }
 }
 </script>
+
+<style lang='scss' scoped>
+</style>

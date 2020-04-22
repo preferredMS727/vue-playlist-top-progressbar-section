@@ -1,11 +1,12 @@
 <template>
   <div>
-    <WavePlaylist 
-      :tracks ="tracks" 
-      :startTime ="startTime" 
-      :trackWidth ="trackWidth" 
+    <WavePlaylist
+      :tracks ="tracks"
+      :startTime ="startTime"
+      :trackWidth ="trackWidth"
       :trackHeight="trackHeight"
       :waveOutlineColor="waveOutlineColor"
+      :topBarInfos="topBarInfos"
       >
     </WavePlaylist>
   </div>
@@ -53,7 +54,21 @@ export default {
       startTime: 1.35,
       waveOutlineColor: '#bbbbbb',
       // trackWidth: 23200 - 200 * 2
-      trackWidth: 22800
+      trackWidth: 22800,
+      topBarInfos: [
+        {
+          title: 'first',
+          length: 20
+        },
+        {
+          title: 'second',
+          length: 60
+        },
+        {
+          title: 'third',
+          length: 20
+        }
+      ]
     }
   }
 }
