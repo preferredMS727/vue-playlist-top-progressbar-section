@@ -21,7 +21,7 @@
     "apollo-client": "^2.6.4",
     "apollo-link": "^1.2.13",
     "apollo-link-http": "^1.5.16",
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.9.0",
     "event-emitter": "^0.3.5",
