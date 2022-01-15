@@ -94,7 +94,7 @@
     "rimraf": "^2.7.1",
     "sass": "^1.22.12",
     "semver": "^5.7.1",
-    "shelljs": "^0.7.6",
+    "shelljs": "^0.8.5",
     "url-loader": "^0.5.8",
     "vue-jest": "^1.4.0",
     "vue-loader": "^13.7.3",
